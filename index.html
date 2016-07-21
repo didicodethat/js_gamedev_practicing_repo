@@ -9,7 +9,10 @@
 
 		<script src="bower_components/lodash/lodash.js"></script>
 		<!-- <script src="bower_components/pixi/pixi.js"></script> -->
+
+		<!-- Loads Engine components Here -->
 		<script src="src/config.js"></script>
+		<script src="src/config/animations.js"></script>
 		<script src="src/config/image_files.js"></script>
 		
 		<!-- Loads Engine components Here -->
@@ -19,11 +22,16 @@
 		<script src="src/components/sprite.js"></script>
 		<script src="src/components/frame.js"></script>
 		<script src="src/components/position.js"></script>
+		<script src="src/components/velocity.js"></script>
+		<script src="src/components/acceleration.js"></script>
+		<script src="src/components/frame_animation.js"></script>
 		
 		<!-- Loads Entities Here -->
 
 		<!-- Loads Systems Here -->
 		<script src="src/systems/draw.js"></script>
+		<script src="src/systems/update_position.js"></script>
+		<script src="src/systems/update_frame_animation.js"></script>
 		
 		<!-- Bootstrap Application -->
 		<script src="main.js"></script>
