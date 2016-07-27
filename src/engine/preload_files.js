@@ -1,7 +1,7 @@
 (function(self){
 	self.engine = self.engine || {};
-	self.engine.preloadFiles = function(doneLoading){
-		loadImages(self.config.image_files)
+	self.engine.preloadFiles = function(image_files,doneLoading){
+		loadImages(image_files)
 			.then(doneLoading, function(){ 
 				alert(" File loading has failed. ");
 			});	

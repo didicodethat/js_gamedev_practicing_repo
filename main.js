@@ -21,7 +21,7 @@ function init(){
 }
 
 function preload(done){
-	Game.engine.preloadFiles(done);
+	Game.engine.preloadFiles(Game.config.image_files, done);
 }
 
 function gameLoop(){
