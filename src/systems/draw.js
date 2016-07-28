@@ -15,6 +15,7 @@
 				frame.width, frame.height
 			);
 		}else{
+			console.log();
 			self.context.drawImage(image, position.x, position.y);
 		}
 	};
